@@ -15,6 +15,7 @@ public class StudentDemo
   private String studentID;
   private String name;
   private String test;
+  private int maxCourses=3;
 
     public String getTest() {
         return test;
@@ -67,5 +68,12 @@ public class StudentDemo
     public void setName(String givenName) {
         name = givenName;
     }
-    
+
+    public int getMaxCourses() {
+        return maxCourses;
+    }
+
+    public void setMaxCourses(int maxCourses) {
+        this.maxCourses = maxCourses;
+    }
 }
